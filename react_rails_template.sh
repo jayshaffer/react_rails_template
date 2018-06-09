@@ -23,5 +23,11 @@ bundle install
 
 rails generate rspec:install
 
+rubocop --auto-gen-config
+rubocop -a
+
 brew install yarn
 yarn add axios
+yarn add jest
+yarn add moment
+yarn add prop-types
